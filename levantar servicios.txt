@@ -1,0 +1,56 @@
+cliente:
+yarn serve
+servidor:
+yarn develop
+para abrir el codido nos ubicamos en client:
+code . 
+
+strapi es back
+viernes 15 3pm por orden de llegada heroku el mismo dia
+documentacion: de scrum 
+
+
+
+
+setTokenApi(reponse.jwt);
+
+https://docs.google.com/document/d/12Biy47KjDk99yhg0NwAFBBYb2C4IfmC-vCFm4SyEdwM/edit?usp=sharing
+
+
+Los cambios que yo hice para que funcionara, el proyecto compañeros. 
+En la diapositiva 208 :  archivo Register.vue en la linea 73 cambiar 
+router.log(response);     por
+router.push("/login");
+
+adicionar la linea
+const router = useRouter();
+en setup (linea 55 en el archivo d la profe)
+
+y en ese mismo archivo en la linea 89 
+ <style lang="scss" scoed> falta la p 
+cambiar por: <style lang="scss" scoped>
+
+
+<template>
+    <div class="home">
+        <h1>HOLA MUNDO</h1>
+        <div class="ui labeled button" tabindex="0">
+    <div class="ui red button">
+    <i class="heart icon"></i> Like
+    </div>
+    <a class="ui basic red left pointing label">
+        1,048
+    </a>
+    </div>
+    <div class="ui labeled button" tabindex="0">
+    <div class="ui basic blue button">
+        <i class="fork icon"></i> Forks
+    </div>
+    <a class="ui basic left pointing blue label">
+        1,048
+    </a>
+    </div>
+    </div>
+</template>
+
+hasta validacion de login 05!!
