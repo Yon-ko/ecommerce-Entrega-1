@@ -39,7 +39,7 @@
      </form>
 
     <router-link to="/login">
-    iniciar sesion
+    INICIAR SESION
     </router-link>
     </div>
   </BasicLayouts>

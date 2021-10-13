@@ -4,7 +4,7 @@
  
 
     <div class="titulo">
-    <h1>FOOD FAST</h1> 
+    <!-- <h1>FOOD FAST</h1>  -->
    
     </div>
    
@@ -28,7 +28,6 @@
 import { ref, onMounted } from 'vue';
 import BasicLayouts from '../layouts/BasicLayouts.vue';
 import { getProducts } from '../api/product';
-// import Product from '../components/Product.vue';
 import Product from '../components/Product';
 export default {
   name: 'Home',
@@ -65,12 +64,6 @@ header{
         color: #f00606;
         /* background-image: url('../assets/banner.png');  */
 }
-
-  
-
-
-
-
 </style>
 
 

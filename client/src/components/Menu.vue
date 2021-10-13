@@ -19,17 +19,10 @@
 
                 <template v-if="token">
 
-                <span class="ui item cart">
-                <i class="shopping cart icon" @click="openCart"></i>
-                </span>
-                <span class="ui item logout" @click="logout">
-                <i class="sign-out icon"></i>
-                </span>
-
-
+            
                 <router-link class="item" to="/orders">Pedidos</router-link>
                 <span class="ui item cart">
-                <i class="shopping cart icon"></i>
+                <i class="shopping cart icon" @click="openCart"></i>
                 </span>
                 <span class="ui item logout" @click="logout">
                 <i class="sign-out icon"></i>
